@@ -9,18 +9,96 @@
 
 body {
     font-family: Shantell Sans, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: Flavors, sans-serif;
+h1 {
+    font-family: Kalam, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
+/* Why is the font-weight not as specified here? */
 #logo {
     float: left;
     font-size: 280%;
+    font-weight: 600;
+    margin-left: 30px
+}
+
+/* navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+/* sets the line height for the logo and menu and by default 
+    the text will be centered in the vertical line height for a balanced look */
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/happy-coal-long.jpg) no-repeat center center;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Shantell Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    
+    width: 600px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: rgba(114, 93, 93, 0.7);
+
+    bottom: 20px;
+    right: 150px;
+
+    position: absolute;
 }
