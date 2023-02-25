@@ -10,3 +10,17 @@
 body {
     font-family: Shantell Sans, sans-serif;
 }
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Flavors, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
