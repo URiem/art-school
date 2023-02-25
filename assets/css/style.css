@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Kalam:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
+/* The following code removes all default margins, padding and borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: arial;
+    font-family: Shantell Sans, sans-serif;
 }
