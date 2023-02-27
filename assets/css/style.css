@@ -78,24 +78,24 @@ h1 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/happy-coal-long.jpg) no-repeat center center;
+    background: url(../images/dragos-gontariu-54VAb3f1z6w-unsplash-cropped.jpg) no-repeat center center;
 }
 
 #cover-text {
     font-size: 130%;
-    font-family: Shantell Sans, sans-serif;
+    font-family: Kalam, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
     
     width: 600px;
-    height: 150px;
+    height: 120px;
 
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
 
-    background-color: rgba(114, 93, 93, 0.7);
+    background-color: rgba(202, 18, 243, 0.7);
 
     bottom: 20px;
     right: 150px;
