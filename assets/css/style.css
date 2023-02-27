@@ -15,7 +15,7 @@ body {
 
 /* headings and logo */
 
-h1 {
+h1, h2 {
     font-family: Kalam, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -95,6 +95,7 @@ h1 {
     padding-right: 30px;
 
     background-color: rgba(201, 18, 243, 0.7);
+    border-radius: 20px;
 
     bottom: 0px;
     right: 150px;
