@@ -116,7 +116,7 @@ h1, h2 {
     }
 
 #jump-right-in {
-    height: 120px;
+    height: 160px;
     width: 100%;
     text-align: center;
     padding-top: 10px;
@@ -213,7 +213,7 @@ hr {
     color: #fafafa;
     background-color: rgba(201, 18, 243, 0.7);
     width: 25%;
-    height: 300px;
+    height: 480px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -224,4 +224,10 @@ hr {
 
 #class-times h2 {
     color:#fafafa;
+}
+
+#class-times hr {
+    border-top: 1px solid #fafafa;
+    width: 80%;
+    margin: 5px auto;
 }
