@@ -239,6 +239,32 @@ hr {
     margin: 5px auto;
 }
 
+footer {
+    clear: both;
+    height: 150px;
+    width: 100%;
+}
+
+.social-networks {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-networks li {
+    list-style-type: none;
+    padding: 50px;
+}
+
+.social-networks i {
+    font-size: 200%;
+    color:#c912f3;
+}
+
 #about-the-artists {
     clear: both;
 }
@@ -250,7 +276,6 @@ hr {
 }
 
 .artist {
-    background-color: orange;
     padding: 50px;
     display: flex;
     flex-direction: row;
