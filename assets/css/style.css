@@ -262,7 +262,7 @@ footer {
 
 .social-networks i {
     font-size: 200%;
-    color:#c912f3;
+    color: #3a3a3a;
 }
 
 #about-the-artists {
@@ -322,6 +322,7 @@ footer {
 }
 
 .grid-wrapper {
+    margin: 0 10px 0 10px;
     clear: both;
 	display: grid;
 	grid-gap: 10px;
