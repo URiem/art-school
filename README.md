@@ -117,6 +117,8 @@ credit images and other media here.
 
 ### Code
 - The website was loosely modeled on the Love Running Walkthough project and some of the code from the walkthrough project was used.
+- Layout and code for the About page was modeled after Paul Thomas O'Rirodans Project 1 Website.
+- Gallery lay out code was adapted from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo
 
 ### Acknoowledgements
 I would like to thank:
