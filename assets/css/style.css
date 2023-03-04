@@ -152,9 +152,16 @@ h1, h2 {
 }
 
 hr {
-    border-top: 1px solid rgba(201, 18, 243);
+    border-top: 2px solid rgba(201, 18, 243);
     width: 100%;
     margin: 5px 0;
+}
+
+.hr1 {
+    border: 10px solid #c912f3;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -256,6 +263,7 @@ hr {
 .artist-bio {
     background-color: white;
     margin: 0 auto;
+    width: 50%;
 }
 
 .artist-image {
