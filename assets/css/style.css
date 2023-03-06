@@ -284,11 +284,11 @@ footer {
     clear: both;
 }
 
-#circle-wkd {
+/* #circle-wkd {
     background: url('../images/senjuti-kundu-JfolIjRnveY-unsplash-cropped.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
-}
+} */
 
 .artist {
     padding: 50px;
@@ -322,6 +322,25 @@ footer {
     height: 100%;
     border-radius: 50%;
 }
+
+#circle-bg-sbr {
+    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-bg-arm {
+    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-bg-kid {
+    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 /* Main Gallery CSS */
 .grid-wrapper > div {
