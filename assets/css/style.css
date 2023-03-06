@@ -107,10 +107,11 @@ h1, h2 {
     background: rgba(201, 18, 243);
     border: 1px solid white;
     color: white;
+    margin-top: 50px;
     padding: 10px 10px;
     border-radius: 5px;
     font-size: x-large;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     }
@@ -213,16 +214,19 @@ hr {
 }
 
 #class-times {
-    background-color: rgba(201, 18, 243, 0.7);
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #class-times div {
     color: #fafafa;
     background-color: rgba(201, 18, 243, 0.7);
-    width: 25%;
+    width: 300px;
     height: 480px;
-    float: left;
-    padding: 30px 0 0 10px;
+    padding: 20px 0 0 0;
     text-align: center;
     border: 2px solid white;
     border-radius: 20px;
@@ -231,10 +235,18 @@ hr {
 
 #class-times h2 {
     color:#fafafa;
+    font-size: xx-large;
+    margin: 10px auto;
+}
+
+#class-times h3 {
+    color:#fafafa;
+    font-size: x-large;
+    margin: 10px auto;
 }
 
 #class-times hr {
-    border-top: 1px solid #fafafa;
+    border-top: 2px solid #fafafa;
     width: 80%;
     margin: 5px auto;
 }
