@@ -221,30 +221,30 @@ hr {
 }
 
 #class-times div {
-    color: #fafafa;
-    background-color: rgba(201, 18, 243, 0.7);
+    /* color: rgba(201, 18, 243); */
+    background-color: #fafafa;
     width: 300px;
     height: 480px;
     padding: 20px 0 10px 0;
     text-align: center;
-    border: 2px solid white;
+    border: 5px solid rgba(201, 18, 243);
     border-radius: 20px;
 }
 
 #class-times h2 {
-    color:#fafafa;
+    /* color:; */
     font-size: xx-large;
     margin: 10px 5px;
 }
 
 #class-times h3 {
-    color:#fafafa;
+    /* color:#fafafa; */
     font-size: x-large;
     margin: 10px auto;
 }
 
 #class-times hr {
-    border-top: 2px solid #fafafa;
+    border-top: 2px solid rgba(201, 18, 243);
     width: 80%;
     margin: 5px auto;
 }
