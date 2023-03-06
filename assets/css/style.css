@@ -318,25 +318,25 @@ footer {
 }
 
 #circle-bg-wkd {
-    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    background: url('../images/wrdsmall.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #circle-bg-sbr {
-    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    background: url('../images/sbrsmall.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #circle-bg-arm {
-    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    background: url('../images/amrsmall.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #circle-bg-kid {
-    background: url('../images/WKDcropped.jpg') no-repeat center center;
+    background: url('../images/klarasmall.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
