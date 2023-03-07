@@ -221,7 +221,6 @@ hr {
 }
 
 #class-times div {
-    /* color: rgba(201, 18, 243); */
     background-color: #fafafa;
     width: 300px;
     height: 480px;
@@ -283,12 +282,6 @@ footer {
 #about-the-artists {
     clear: both;
 }
-
-/* #circle-wkd {
-    background: url('../images/senjuti-kundu-JfolIjRnveY-unsplash-cropped.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-} */
 
 .artist {
     padding: 50px;
@@ -373,4 +366,56 @@ footer {
 .grid-wrapper .big {
 	grid-column: span 2;
 	grid-row: span 2;
+}
+
+/* Sign up page styling */
+
+.form-section {
+    clear: both;
+    max-width: 800px;
+    width: 100%;
+}
+
+.sign-up-form {
+    margin: 150px 10% 0 10%;
+    color: #3a3a3a;
+    background-color:#fafafa;
+    padding: 30px;
+}
+
+.sign-up-form h2 {
+    text-align: center;
+}
+
+.sign-up-form h3 {
+    margin: 10px 0 5px 0;
+}
+
+.text-input {
+    margin: 10px 8% 20px 2%;
+    background: transparent;
+    height: 25px;
+    width: 90%;
+    border: 2px solid rgba(201, 18, 243);
+    border-radius: 4px;
+}
+
+#message {
+    margin: 10px 0 20px 0;
+    width: 100%;
+    border: 2px solid rgba(201, 18, 243);
+    border-radius: 4px;
+}
+
+.form-submit-button {
+    background: rgba(201, 18, 243);
+    border: 1px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: Shantell Sans, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
 }
