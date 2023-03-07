@@ -123,32 +123,30 @@ h1, h2 {
     padding-bottom: 20px;
 }
 
-#link-to-offerings {
+.section-heading {
     text-align: center;
     margin: 20px 0;
     font-size: 200%;
 }
 
 #philosophy {
-    height: 600px;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* height: 600px; */
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    padding-top: 0px;
-    width: 33%;
-    margin: 0 auto; /* centers the div - no float center is available */
+#philosophy > div {
+    margin: 10px;
+    background-color: #fafafa;
+    width: 260px;
+    height: 260px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 5px solid rgba(201, 18, 243);
+    border-radius: 20px;
 }
 
 hr {
@@ -164,52 +162,32 @@ hr {
     margin: 0 auto;
 }
 
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
-}
-
-#welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
+#circle-cover-bg1 {
+    padding: 0;
     background: url('../images/senjuti-kundu-JfolIjRnveY-unsplash-cropped.jpg') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 20px;
+}
+
+#circle-cover-bg2 {
+    padding: 0;
+    background: url('../images/kideaselsmall.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#circle-cover-bg3 {
+    padding: 0;
+    background: url('../images/kidcrocsmall.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#circle-cover-bg4 {
+    padding: 0;
+    background: url('../images/pexels-alexander-grey-small.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
 }
 
 #class-times {
@@ -225,7 +203,7 @@ hr {
     background-color: #fafafa;
     width: 300px;
     height: 480px;
-    padding: 20px 0 10px 0;
+    padding: 20px 0;
     text-align: center;
     border: 5px solid rgba(201, 18, 243);
     border-radius: 20px;
