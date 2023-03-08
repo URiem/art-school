@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Creative Spaces is an art space and school offering classes for children of all ages. The site is targeted towards parents who are looking for their children to expand and develop their creative abilities. It is based in the Galway area. It incorporates an outdoor component of exploration and art in connection to nature.
+Creative Spaces is an art space and school in the Galway area offering classes for children ages 4 - 14. The site is targeted towards parents who are looking for their children to expand and develop their creative abilities. The space offers special events as well such as birthday parties and summer camps.
 
 ![Mockup image](#)
 [Live webpage](#)
@@ -14,8 +14,8 @@ Creative Spaces is an art space and school offering classes for children of all 
 ## Project Goals
 
 ### User Goals
-- Find an open, inviting and versitile art space in Galway city.
-- Find guided art classes for children of all ages.
+- Find an open, inviting and versitile art space for children in Galway city.
+- Find guided art classes for children.
 - Find a open art exploration space for children.
 - Become part of a community of like-minded children and parents of artistially inclined children.
 
@@ -66,11 +66,39 @@ As the site owner, I want users to ...
 2. ... feel comfortable and at ease reaching out for more information.
 
 ### Scope
-What features do you want to include in the design?
+
+#### Intial Stage
+
+At the initial stage the site will include the basic relevant information. It will include information on the art school and it's motivating principles. It will include a list of classes offered. It will communicate to the user the experience and trustworthyness of the staff running the space. It will make contacting the school easy and promote an approachabe image. The site will include a picture gallery full of impressions of the space and it's operations.
+
+#### Future Additions
+
+In future expansion the site could include a more detailed area for news and special events, such as summer camps, and art exhibits, and a pricing structure of the services offered. 
 
 ### Structure
-How is the information structured?
-Wireframes
+
+The structure of the initial site will include four pages:
+
+1. **Home Page** with navigation features in a header and footer, a section on the motivations and philosphy of the space, a section on the classes offered and information on location.
+
+![Home](assets/images/home1.png)
+
+!(assets/images/home2.png)
+
+!(assets/images/home3.png)
+
+
+2. **About Page** with information on the staff and more details about the classes/spaces they fascilitate. This page will include the same header and footer as the main page.
+
+![About](assets/images/about.png)
+
+3. **Contact Page** with a detailed form that includes name and email fields, as well as details on the users interest in the space and the age of the child who is considering use of the space. There will be a field for a text message as well.
+
+![Contact](assets/images/#)
+
+4. **Gallery Page** with a wealth of images that will give a feel and impression of the space.
+
+![Gallery](assets/images/#)
 
 ### Skeleton
 How is it implemented. how will the user navigate it? Features.
