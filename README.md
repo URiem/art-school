@@ -3,6 +3,26 @@
 
 ## Table of Content
 
+1. [Introduction](#introduction)
+2. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+3. [User Experience](#user-experience)
+    1. [Strategy](#strategy)
+    2. [Scope](#scope)
+    3. [Structure](#structure)
+    4. [Skeleton](#skeleton)
+    5. [Surface](#surface)
+4. [Technologies Used](#technologies-used)
+    1. [Language](#languages)
+    2. [Frameworks & Tools](#frameworks--tools)
+5. [Testing and Validation](#testing-and-validation)
+    1. [HTML](#html-validation)
+    2. [CSS](#css-validation)
+    3. [Accessibility](#accessibility)
+6. [Bugs](#bugs-fixes-and-outstanding-issues)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
 
 ## Introduction
 
@@ -120,7 +140,7 @@ Colors, images
 - Google Fonts
 - 
 
-## Texting and Validation
+## Testing and Validation
 
 ### HTML Validation
 
