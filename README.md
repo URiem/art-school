@@ -83,9 +83,9 @@ The structure of the initial site will include four pages:
 
 ![Home](assets/images/home1.png)
 
-!(assets/images/home2.png)
+![Home](assets/images/home2.png)
 
-!(assets/images/home3.png)
+![Home](assets/images/home3.png)
 
 
 2. **About Page** with information on the staff and more details about the classes/spaces they fascilitate. This page will include the same header and footer as the main page.
