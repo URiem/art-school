@@ -9,6 +9,9 @@
     2. [Site Owner Goals](#site-owner-goals)
 3. [User Experience](#user-experience)
     1. [Strategy](#strategy)
+        * [Target Audience](#target-audience)
+        * [User Requirements & Expectations](#user-requirements-and-expectations)
+        * [User Stories](#user-stories)
     2. [Scope](#scope)
     3. [Structure](#structure)
     4. [Skeleton](#skeleton)
@@ -114,17 +117,32 @@ The structure of the initial site will include four pages:
 
 3. **Contact Page** with a detailed form that includes name and email fields, as well as details on the users interest in the space and the age of the child who is considering use of the space. There will be a field for a text message as well.
 
-![Contact](assets/images/#)
+![Contact](assets/images/signup.png)
 
 4. **Gallery Page** with a wealth of images that will give a feel and impression of the space.
 
-![Gallery](assets/images/#)
+![Gallery](assets/images/gallery.png)
 
 ### Skeleton
-How is it implemented. how will the user navigate it? Features.
+
+Here will be more detail about navigation and other features such as:
+
+1. Nav/menu at the top of each page linking to all other pages.
+2. Footer with social media links and address.
+3. Call to action on first page with link to classes offered.
+4. Links in class section to about page with more information.
+5. Contact page with several input fields and buttons, as well as a message field and submit.
+
+Future ideas:
+
+6. Include a map with the location at the bottom of the home page.
 
 ### Surface
-Colors, images 
+
+Here will be more information on design choices:
+
+1. Color scheme
+2. Font choice
 
 ## Technologies Used
 
