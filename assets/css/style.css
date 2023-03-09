@@ -26,14 +26,14 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 30px
 }
 
 /* navigation links */
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 /* sets the line height for the logo and menu and by default 
@@ -45,7 +45,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 #menu a {
@@ -84,7 +84,7 @@ h1, h2 {
     font-size: 130%;
     font-family: Kalam, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: center;
     
     width: 600px;
@@ -114,6 +114,19 @@ h1, h2 {
     text-transform: uppercase;
     text-decoration: none;
     }
+
+.button:hover {
+    background: white;
+    border: 2px solid rgba(201, 18, 243);
+    color: rgba(201, 18, 243);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
 
 #jump-right-in {
     height: 160px;
@@ -160,6 +173,7 @@ hr {
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 #circle-cover-bg1 {
@@ -238,6 +252,13 @@ footer {
     width: 100%;
 }
 
+#address {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
 .social-networks {
     height: 100%;
     display: flex;
@@ -245,7 +266,6 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* gap: 10px; */
 }
 
 .social-networks li {
@@ -270,6 +290,7 @@ footer {
     justify-content: center;
     align-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .artist-bio {
@@ -399,6 +420,19 @@ footer {
     text-decoration: none;
 }
 
+.form-submit-button:hover {
+    background: white;
+    border: 2px solid rgba(201, 18, 243);
+    color: rgba(201, 18, 243);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: Shantell Sans, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
  /* Responsiveness for medium screen sizes from 950px wide and down */
 
  @media screen and (max-width: 950px) {
@@ -412,4 +446,35 @@ footer {
         line-height: 25px;
     }
     
+    #cover-text {
+        font-size: 130%;
+        font-family: Kalam, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        
+        width: 460px;
+        height: 180px;
+    
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+        background-color: rgba(201, 18, 243, 0.7);
+        border-radius: 20px;
+    
+        bottom: 0px;
+        left: 0px;
+    
+        position: absolute;
+    }
+ }
+
+ @media screen and (max-width: 800px) {
+
+ .artist-bio {
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+}
  }
