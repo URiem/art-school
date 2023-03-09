@@ -105,7 +105,7 @@ h1, h2 {
 
 .button {
     background: rgba(201, 18, 243);
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
@@ -410,7 +410,7 @@ footer {
 
 .form-submit-button {
     background: rgba(201, 18, 243);
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
