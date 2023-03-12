@@ -61,7 +61,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and text box*/
 
 #hero-outer {
     height: 480px;
@@ -78,6 +78,7 @@ h1, h2 {
     height: 400px;
     width: 100%;
     background: url(../images/dragos-gontariu-unsplash-cropped.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 #cover-text {
@@ -98,11 +99,12 @@ h1, h2 {
     border-radius: 20px;
 
     bottom: 0px;
-    right: 150px;
+    left: 150px;
 
     position: absolute;
 }
 
+/* Button Styling */
 .button {
     background: rgba(201, 18, 243);
     border: 2px solid white;
@@ -136,12 +138,21 @@ h1, h2 {
     padding-bottom: 20px;
 }
 
+.hr1 {
+    border: 10px solid #c912f3;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .section-heading {
     text-align: center;
     margin: 20px 0;
     font-size: 200%;
 }
 
+/* Philosophy Section */
 #philosophy {
     clear: both;
     display: flex;
@@ -166,14 +177,6 @@ hr {
     border-top: 2px solid rgba(201, 18, 243);
     width: 100%;
     margin: 5px 0;
-}
-
-.hr1 {
-    border: 10px solid #c912f3;
-    border-radius: 10px;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
 }
 
 #circle-cover-bg1 {
@@ -203,6 +206,8 @@ hr {
     height: 100%;
     border-radius: 20px;
 }
+
+/* Class Times Section */
 
 #class-times {
     clear: both;
@@ -246,6 +251,7 @@ hr {
     margin: 20px;
 }
 
+/* Footer Styling */
 footer {
     clear: both;
     height: 150px;
@@ -279,6 +285,8 @@ footer {
     color: #3a3a3a;
 }
 
+
+/* About Page Styling */
 #about-the-artists {
     clear: both;
 }
@@ -337,6 +345,8 @@ footer {
 
 
 /* Main Gallery CSS */
+/* Gallery lay out code adapted from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo */
+
 .grid-wrapper > div {
 	display: flex;
 	justify-content: center;
@@ -345,7 +355,7 @@ footer {
 .grid-wrapper > div > img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
 	border-radius: 5px;
 }
 
