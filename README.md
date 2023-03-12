@@ -104,24 +104,24 @@ The structure of the initial site will include four pages:
 
 1. **Home Page** with navigation features in a header and footer, a section on the motivations and philosphy of the space, a section on the classes offered and information on location.
 
-![Home](assets/documentation/home-top.png)
+![Home](documentation/home-top.png)
 
-![Home](assets/documentation/home-middle.png)
+![Home](documentation/home-middle.png)
 
-![Home](assets/documentation/home-bottom.png)
+![Home](documentation/home-bottom.png)
 
 
 2. **About Page** with information on the staff and more details about the classes/spaces they fascilitate. This page will include the same header and footer as the main page.
 
-![About](assets/documentation/about.png)
+![About](documentation/about.png)
 
 3. **Contact Page** with a detailed form that includes name and email fields, as well as details on the users interest in the space and the age of the child who is considering use of the space. There will be a field for a text message as well.
 
-![Contact](assets/documentation/signup.png)
+![Contact](documentation/signup.png)
 
 4. **Gallery Page** with a wealth of images that will give a feel and impression of the space.
 
-![Gallery](assets/documentation/gallery.png)
+![Gallery](documentation/gallery.png)
 
 ### Skeleton
 
