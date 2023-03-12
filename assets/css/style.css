@@ -345,39 +345,45 @@ footer {
 
 
 /* Main Gallery CSS */
-/* Gallery lay out code adapted from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo */
 
-.grid-wrapper > div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.grid-wrapper > div > img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	border-radius: 5px;
-}
-
-.grid-wrapper {
-    margin: 0 10px 0 10px;
+#photos {
     clear: both;
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-auto-rows: 200px;
-	grid-auto-flow: dense;
+    margin: 10px;
+    column-count: 4;
+    column-gap: 5px;
 }
-.grid-wrapper .wide {
-	grid-column: span 2;
+
+#photos img {
+    width: 100%;
+    border-radius: 5px;
 }
-.grid-wrapper .tall {
-	grid-row: span 2;
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+  /* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 5px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-radius: 5px;
 }
-.grid-wrapper .big {
-	grid-column: span 2;
-	grid-row: span 2;
+
+  /* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
 }
+
 
 /* Sign up page styling */
 
