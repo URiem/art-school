@@ -157,7 +157,7 @@ Here will be more information on design choices:
 - Gitpod
 - Balsamiq
 - Google Fonts
-- 
+- Font Awesome
 
 ## Testing and Validation
 
