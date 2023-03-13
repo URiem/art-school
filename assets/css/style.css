@@ -444,6 +444,30 @@ footer {
     text-decoration: none;
 }
 
+/* 404 page styling 404 page styling 404 page styling */
+
+#error-container {
+    clear: both;
+    box-sizing: border-box;
+    height: 400px;
+    width: 80%;
+    margin: 20px 10% 20px 10%;
+    border: 5px hsl(289, 91%, 38%) solid;
+    border-radius: 20px;
+    padding: 100px 20px 0px 20px;
+}
+
+#error-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+#error-container div {
+    text-align: center;
+    font-size: 300%;
+}
+
  /* Responsiveness for medium screen sizes from 950px wide and down */
 
  @media screen and (max-width: 1050px) {
@@ -515,7 +539,8 @@ footer {
     }
 
     #logo {
-        margin-left: 10px
+        margin-left: 10px;
+        font-size: 180%;
     }
 
     #menu {
