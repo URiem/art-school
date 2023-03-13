@@ -166,11 +166,12 @@ h1, h2 {
     margin: 10px;
     background-color: #fafafa;
     width: 260px;
-    height: 260px;
+    height: 460px;
     padding: 20px 20px;
     text-align: center;
     border: 5px solid rgba(201, 18, 243);
     border-radius: 20px;
+    position: relative;
 }
 
 hr {
@@ -179,32 +180,25 @@ hr {
     margin: 5px 0;
 }
 
-#circle-cover-bg1 {
+.circle-cover {
     padding: 0;
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#bg1 {
     background: url('../images/senjuti-kundu-unsplash-cropped.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 20px;
 }
 
-#circle-cover-bg2 {
-    padding: 0;
+#bg2 {
     background: url('../images/kideaselsmall.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 20px;
 }
 
-#circle-cover-bg3 {
-    padding: 0;
+#bg3 {
     background: url('../images/kidcrocsmall.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 20px;
-}
-
-#circle-cover-bg4 {
-    padding: 0;
-    background: url('../images/pexels-alexander-grey-small.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 20px;
 }
 
 /* Class Times Section */
