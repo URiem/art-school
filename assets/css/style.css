@@ -452,26 +452,44 @@ footer {
 
  /* Responsiveness for medium screen sizes from 950px wide and down */
 
- @media screen and (max-width: 950px) {
+ @media screen and (max-width: 1050px) {
+
+    #photos {
+        column-count: 3;
+    }
+ }
+
+ @media screen and (max-width: 850px) {
+
+    #photos {
+        column-count: 2;
+    }
+
+    #logo {
+        float: left;
+        font-size: 250%;
+        font-weight: 500;
+        margin-left: 20px
+    }
 
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 10px;
         margin-bottom: 20px;
         line-height: 25px;
     }
     
     #cover-text {
-        font-size: 130%;
+        font-size: 120%;
         font-family: Kalam, sans-serif;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
         
-        width: 460px;
-        height: 180px;
+        width: 320px;
+        height: 160px;
     
         padding-top: 40px;
         padding-left: 10px;
@@ -495,3 +513,21 @@ footer {
     width: 80%;
 }
  }
+
+ @media screen and (max-width: 450px) {
+
+    #photos {
+        column-count: 1;
+    }
+
+    #logo {
+        margin-left: 10px
+    }
+
+    #menu {
+        margin-left: 10px;
+        font-size: 90%;
+        letter-spacing: 1px;
+    }
+}
+    

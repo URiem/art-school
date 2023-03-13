@@ -32,7 +32,7 @@
 Creative Spaces is an art space and school in the Galway area offering classes for children ages 4 - 14. The site is targeted towards parents who are looking for their children to expand and develop their creative abilities. The space offers special events as well such as birthday parties and summer camps.
 
 ![Mockup image](#)
-[Live webpage](#)
+[Live webpage](https://uriem.github.io/art-school/index.html)
 
 ## Project Goals
 
