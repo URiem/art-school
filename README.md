@@ -1,6 +1,10 @@
 # Creative Spaces
 (Developer: Ulrike Riemenschneider)
 
+![Mockup image](documentation/iamresponsive.png)
+
+[Live webpage](https://uriem.github.io/art-school/index.html)
+
 ## Table of Content
 
 1. [Introduction](#introduction)
@@ -29,10 +33,7 @@
 
 ## Introduction
 
-Creative Spaces is an art space and school in the Galway area offering classes for children ages 4 - 14. The site is targeted towards parents who are looking for their children to expand and develop their creative abilities. The space offers special events as well such as birthday parties and summer camps.
-
-![Mockup image](#)
-[Live webpage](https://uriem.github.io/art-school/index.html)
+Creative Spaces is an art space and school in the Ratzeburg, Germany, area offering classes for children ages 4 - 14. The site is targeted towards parents who are looking for their children to expand and develop their creative abilities. The space offers special events as well such as birthday parties and summer camps.
 
 ## Project Goals
 
