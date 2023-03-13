@@ -95,7 +95,7 @@ h1, h2 {
     padding-left: 30px;
     padding-right: 30px;
 
-    background-color: rgba(201, 18, 243, 0.7);
+    background-color: rgba(153, 9, 185, 0.7);
     border-radius: 20px;
 
     bottom: 0px;
@@ -106,7 +106,7 @@ h1, h2 {
 
 /* Button Styling */
 .button {
-    background: rgba(201, 18, 243);
+    background: hsl(289, 91%, 38%);
     border: 2px solid white;
     color: white;
     padding: 10px 10px;
@@ -119,8 +119,8 @@ h1, h2 {
 
 .button:hover {
     background: white;
-    border: 2px solid rgba(201, 18, 243);
-    color: rgba(201, 18, 243);
+    border: 2px solid hsl(289, 91%, 38%);
+    color: hsl(289, 91%, 38%);
     padding: 10px 10px;
     border-radius: 5px;
     font-size: x-large;
@@ -139,7 +139,7 @@ h1, h2 {
 }
 
 .hr1 {
-    border: 10px solid #c912f3;
+    border: 10px solid hsl(289, 91%, 38%);
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
@@ -169,13 +169,13 @@ h1, h2 {
     height: 460px;
     padding: 20px 20px;
     text-align: center;
-    border: 5px solid rgba(201, 18, 243);
+    border: 5px solid hsl(289, 91%, 38%);
     border-radius: 20px;
     position: relative;
 }
 
 hr {
-    border-top: 2px solid rgba(201, 18, 243);
+    border-top: 2px solid hsl(289, 91%, 38%);
     width: 100%;
     margin: 5px 0;
 }
@@ -218,7 +218,7 @@ hr {
     height: 480px;
     padding: 20px 0;
     text-align: center;
-    border: 5px solid rgba(201, 18, 243);
+    border: 5px solid hsl(289, 91%, 38%);
     border-radius: 20px;
 }
 
@@ -235,7 +235,7 @@ hr {
 }
 
 #class-times hr {
-    border-top: 2px solid rgba(201, 18, 243);
+    border-top: 2px solid hsl(289, 91%, 38%);
     width: 80%;
     margin: 5px auto;
 }
@@ -407,19 +407,19 @@ footer {
     background: transparent;
     height: 25px;
     width: 90%;
-    border: 2px solid rgba(201, 18, 243);
+    border: 2px solid hsl(289, 91%, 38%);
     border-radius: 4px;
 }
 
 #message {
     margin: 10px 0 20px 0;
     width: 100%;
-    border: 2px solid rgba(201, 18, 243);
+    border: 2px solid hsl(289, 91%, 38%);
     border-radius: 4px;
 }
 
 .form-submit-button {
-    background: rgba(201, 18, 243);
+    background: hsl(289, 91%, 38%);
     border: 2px solid white;
     color: white;
     padding: 10px 10px;
@@ -433,8 +433,8 @@ footer {
 
 .form-submit-button:hover {
     background: white;
-    border: 2px solid rgba(201, 18, 243);
-    color: rgba(201, 18, 243);
+    border: 2px solid hsl(289, 91%, 38%);
+    color: hsl(289, 91%, 38%);
     padding: 10px 10px;
     border-radius: 5px;
     font-family: Shantell Sans, sans-serif;
@@ -489,7 +489,7 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
     
-        background-color: rgba(201, 18, 243, 0.7);
+        background-color: rgba(153, 9, 185, 0.7);
         border-radius: 20px;
     
         bottom: 0px;
