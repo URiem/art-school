@@ -184,13 +184,16 @@ hr {
     padding: 0;
     width: 260px;
     height: 260px;
-    border-radius: 20px;
+    border-radius: 15px;
     position: absolute;
     bottom: 20px;
     left: 20px;
+    /* margin: 0 auto; */
 }
+
 #bg1 {
     background: url('../images/senjuti-kundu-unsplash-cropped.jpg') no-repeat center center;
+    max-width = 100%;
 }
 
 #bg2 {
@@ -306,9 +309,6 @@ footer {
     width: 300px;
     height: 300px;
     padding: 0px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -557,3 +557,36 @@ footer {
     }
 }
     
+
+@media screen and (max-width: 320px) {
+
+    #logo {
+        margin-left: 10px;
+        font-size: 140%;
+    }
+
+    #menu {
+        margin-left: 10px;
+        font-size: 70%;
+        letter-spacing: 1px;
+    }
+
+.circle-cover {
+    padding: 0;
+    width: 260px;
+    height: 240px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    /* margin: 0 auto; */
+    max-width: 90%;
+    }
+
+    .artist-bio {
+        background-color: white;
+        margin: 0 auto;
+        width: 95%;
+    }
+     }
+}
