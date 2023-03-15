@@ -327,6 +327,86 @@ The websites compatability was tested on the following browsers:
 
 ### User Stories
 
+1. As a first time user, I want to know what services are offered at Creative Spaces.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page | Navigate to the type of art activities you are most interested in | Locating information on activities offered | Works as expected |
+
+
+2. As a first time user, I want to know times, location, and types of classes offered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page | Navigate to the type of art activities you are most interested in | See types of classes and times offered | Works as expected |
+| Footer - address | Scroll down to the footer of the page | Find the address of the school | Works as expected |
+
+3. As a first time user, I want to know how to get in contact with the business and request more information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
+
+
+4. As a first time user, I want to find more information about the staff mentoring and supervising the children.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About page | Navigate to the about page | Find information on the staff and their classes | Works as expected |
+
+5. As a first time user, I want to get a feel for what to expect from the classes and fascilities.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About page | Navigate to the about page | Find information on the staff and their classes | Works as expected |
+| Gallery page | Navigate to the gallery page | Find samples of work produced by teachers and students | Works as expected |
+
+
+6. As a returning user, I want to see the times and types of classes offered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page | Navigate to the type of art activities you are most interested in | Locating information on activities offered | Works as expected |
+
+7. As a returning user, I want to see if there is any new classes offered.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form for more information | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | See if new classes are advertised on social media | Works as expected | 
+
+8. As a returning user, I want to find social media links to connect with the business.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer-social media links  | On any page scroll down to the footer | Find social media links | Works as expected | 
+
+9. As a returning user, I want to find directions to the location of the business.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer-social media links  | On any page scroll down to the footer | Find address of the school | Works as expected | 
+
+
+10. As the site owner, I want users to interact with the space, learn about the space, learn about the services offered, learn about the benefits of the service, and sign up for more information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page | Navigate to the type of art activities and philosophy section | Find information on activities offered and business motivation | Works as expected |
+| Footer-social media links  | On any page scroll down to the footer | Contact via any social media platform | Works as expected | 
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
+| About page | Navigate to the about page and read about staff backgrounds and classes they offer | Read the page | Works as expected |
+
+
+
+11. As the site owner, I want users to feel comfortable and at ease reaching out for more information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer-social media links  | On any page scroll down to the footer | Contact via any social media platform | Works as expected | 
+| Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
+
 
 ## Bugs, Fixes and Outstanding issues
 
