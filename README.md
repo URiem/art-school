@@ -39,14 +39,12 @@
 5. [Testing and Validation](#testing-and-validation)
     1. [HTML](#html-validation)
     2. [CSS](#css-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    5. [Browser Compatability](#browser-compatability)
-    6. [User Stories](#user-stories)
+    3. [Accessibility & Performance](#accessibility--performance)
+    4. [Browser Compatability](#browser-compatability)
+    5. [User Stories](#user-stories)
 6. [Bugs](#bugs-fixes-and-outstanding-issues)
-7. [Deployment](#deployment)
-8. [Development](#development)
-9. [Credits](#credits)
+7. [Deployment & Development](#deployment--development)
+8. [Credits](#credits)
 
 
 ## Introduction
@@ -264,15 +262,68 @@ Kalam is the font used for high level heading such as the business name, text in
 
 ### HTML Validation
 
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors or warnings.
+
+<details>
+<summary>Home</summary>
+<img src="documentation/.png" width="500">
+</details>
+
+<details>
+<summary>About</summary>
+<img src="documentation/.png" width="500">
+</details>
+
+<details>
+<summary>Gallery</summary>
+<img src="documentation/.png" width="500">
+</details>
+
+<details>
+<summary>Contact</summary>
+<img src="documentation/.png" width="500">
+</details>
 
 ### CSS Validation
 
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. The code passed with no errors or warnings.
 
-### Accessibility
+<details>
+<summary>CSS Validation Screenshot</summary>
+<img src="documentation/.png" width="500">
+</details>
 
-### Performance
+### Accessibility & Performance
+
+The Lighthouse feature on Google Devtools was used to assess accessibility and performance. 
+
+<details>
+<summary>Home</summary>
+<img src="documentation/.png" width="500">
+</details>
+
+<details>
+<summary>About</summary>
+<img src="documentation/.png" width="500">
+</details>
+
+<details>
+<summary>Gallery</summary>
+<img src="documentation/.png" width="500">
+</details>
+
+<details>
+<summary>Contact</summary>
+<img src="documentation/.png" width="500">
+</details>
 
 ### Browser Compatability
+
+The websites compatability was tested on the following browsers:
+
+* Google Chrome
+* Mozilla Waterfox
+* Microsoft Edge
 
 ### User Stories
 
@@ -280,10 +331,29 @@ Kalam is the font used for high level heading such as the business name, text in
 ## Bugs, Fixes and Outstanding issues
 
 
-## Deployment
+## Deployment & Development
 
-## Development
+The website was deployed using GitHub Pages by following these steps:
 
+1. In the GitHub respository navigate to the Settings tab.
+2. Select Pages from the menu on the left-hand side of the page.
+3. For the source select Branch: 'main' and then select: 'save'.
+4. After the webpage refreshes automatically a ribbon at the top will displays the following message: "Your site is live at https://uriem.github.io/art-school/"
+
+The website repository can be forked by the following steps:
+
+1. Go to the GitHub repository.
+2. Click on the Fork button in the upper right hand corner.
+
+The repository can be cloned by the following steps:
+
+1. Got to the GitHub repository.
+2. Locade the Code button above the list of files and click on it.
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory.
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
 
 ## Credits
 
