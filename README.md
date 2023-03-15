@@ -17,9 +17,22 @@
         * [User Requirements & Expectations](#user-requirements-and-expectations)
         * [User Stories](#user-stories)
     2. [Scope](#scope)
+        * [Initial Stage](#intial-stage)
+        * [Future Additions](#future-additions)
     3. [Structure](#structure)
+        * [Wireframes](#wireframes)
     4. [Skeleton](#skeleton)
+        * [Header](#header)
+        * [Footer](#footer)
+        * [Services offered](#services-offered)
+        * [Calls to action](#call-to-action)
+        * [About page](#about-page)
+        * [Contact page](#contact-page)
+        * [Gallery and Images](#gallery-page-and-images)
+        * [Future Additions](#future-additions)
     5. [Surface](#surface)
+        * [Color Scheme](#color-scheme)
+        * [Font](#font)
 4. [Technologies Used](#technologies-used)
     1. [Language](#languages)
     2. [Frameworks & Tools](#frameworks--tools)
@@ -27,9 +40,14 @@
     1. [HTML](#html-validation)
     2. [CSS](#css-validation)
     3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Browser Compatability](#browser-compatability)
+    6. [User Stories](#user-stories)
 6. [Bugs](#bugs-fixes-and-outstanding-issues)
 7. [Deployment](#deployment)
-8. [Credits](#credits)
+8. [Development](#development)
+9. [Credits](#credits)
+
 
 ## Introduction
 
@@ -101,6 +119,8 @@ In future expansion the site could include a more detailed area for news and spe
 
 ### Structure
 
+#### Wireframes
+
 The structure of the initial site will include four pages:
 
 1. **Home Page** with navigation features in a header and footer, a section on the motivations and philosphy of the space, a section on the classes offered and information on location.
@@ -128,19 +148,84 @@ The structure of the initial site will include four pages:
 
 Here will be more detail about navigation and other features such as:
 
-1. Nav/menu at the top of each page linking to all other pages.
-2. Footer with social media links and address.
-3. Call to action on first page with link to classes offered.
-4. Links in class section to about page with more information.
-5. Contact page with several input fields and buttons, as well as a message field and submit.
+#### Header
+<details>
+<summary>Screenshot of header on desktop</summary>
+<img src="assets/documentation/" width="500">
+</details>
+<details>
+<summary>Screenshot of header on mobile</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- Featured on all five pages.
+- Includes the company name/logo and a menue with links to the Homepage, About page, Gallery page and Contact page.
+- The header is fully responsive and changes to fill two lines on smaller screens.
+- If a user hovers over a menu option in desktop mode an animated bar shows them which option they are choosing. 
 
-Future ideas:
+#### Footer
+<details>
+<summary>Screenshot of Footer</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- Featured on all five pages.
+- Includes links to the Homepage, About page, Gallery page and Contact page.
+- The navbar is fully responsive and changes to fill two lines on smaller screens.
+- If a user hovers over a nav bar option in desktop mode an animated bar shows them which option they are choosing. 
 
-6. Include a map with the location at the bottom of the home page.
+#### Services offered
+<details>
+<summary>Screenshot of Services offered</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- Four panels detail the services/classes offered at the art school.
+- Age groups and class times are specified.
+- A call to action for more information is included in each panel.
+
+#### Call to action
+<details>
+<summary>Screenshot of calls to action</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- A call to action features immediately below the hero image. It links to the services offered section.
+- The call to action buttons in the panels for the classes offered link to about page and specifically the teacher running that class.
+- The call to action button in the special events panel links to the contact page.
+
+#### About page
+<details>
+<summary>Screenshot of About page</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- Features four images with information on each member of staff with a short biography and information on the class.
+
+
+#### Contact page
+<details>
+<summary>Screenshot of Conact page</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- Features a detailed form that a customer can submit to express specific interest and request more information.
+
+
+#### Gallery page and Images
+<details>
+<summary>Screenshot of Gallery page</summary>
+<img src="assets/documentation/" width="500">
+</details>
+- Features artwork by the four members of staff listed on the about page. 
+- If the user hovers over the image a superimposed caption appears on each image.
+
+#### Future Additions
+
+A feature to be implemented in the future is a map with the location of the school at the bottom of the home page.
 
 ### Surface
 
 Here will be more information on design choices:
+
+#### Color Scheme
+
+#### Font
+
 
 1. Color scheme
 2. Font choice
@@ -169,11 +254,19 @@ Here will be more information on design choices:
 
 ### Accessibility
 
+### Performance
+
+### Browser Compatability
+
+### User Stories
+
 
 ## Bugs, Fixes and Outstanding issues
 
 
 ## Deployment
+
+## Development
 
 
 ## Credits
