@@ -507,16 +507,16 @@ footer {
     }
     
     #cover-text {
-        font-size: 120%;
+        font-size: 100%;
         font-family: Kalam, sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-align: center;
         
-        width: 320px;
+        width: 300px;
         height: 160px;
     
-        padding-top: 20px;
+        padding-top: 50px;
         padding-left: 5px;
         padding-right: 5px;
     
@@ -547,7 +547,7 @@ footer {
 
     #logo {
         margin-left: 10px;
-        font-size: 180%;
+        font-size: 200%;
     }
 
     #menu {
@@ -562,7 +562,7 @@ footer {
 
     #logo {
         margin-left: 10px;
-        font-size: 140%;
+        font-size: 200%;
     }
 
     #menu {
@@ -588,5 +588,4 @@ footer {
         margin: 0 auto;
         width: 95%;
     }
-     }
 }
