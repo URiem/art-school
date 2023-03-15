@@ -410,6 +410,13 @@ The websites compatability was tested on the following browsers:
 
 ## Bugs, Fixes and Outstanding issues
 
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Bug | Fix |
+
+### Outstanding Issues
+
+
 
 ## Deployment & Development
 
