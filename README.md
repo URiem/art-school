@@ -146,62 +146,75 @@ The structure of the initial site will include four pages:
 
 ### Skeleton
 
-Here will be more detail about navigation and other features such as:
+As described in the previous section with the aid of wireframes, the website includes for pages, which all have a consistent header and footer. The home page includes several calls to action, which link to the about page and the contact page. 
 
 #### Header
 <details>
 <summary>Screenshot of header on desktop</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/header.png" width="500">
 </details>
 <details>
 <summary>Screenshot of header on mobile</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/mobileheader.png" width="500">
 </details>
 - Featured on all five pages.
 - Includes the company name/logo and a menue with links to the Homepage, About page, Gallery page and Contact page.
 - The header is fully responsive and changes to fill two lines on smaller screens.
 - If a user hovers over a menu option in desktop mode an animated bar shows them which option they are choosing. 
 
+
 #### Footer
 <details>
 <summary>Screenshot of Footer</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/footer.png" width="500">
+</details>
+<details>
+<summary>Screenshot of footer on mobile</summary>
+<img src="documentation/mobilefooter.png" width="500">
 </details>
 - Featured on all five pages.
 - Includes links to the Homepage, About page, Gallery page and Contact page.
 - The navbar is fully responsive and changes to fill two lines on smaller screens.
 - If a user hovers over a nav bar option in desktop mode an animated bar shows them which option they are choosing. 
 
+
+
 #### Services offered
 <details>
 <summary>Screenshot of Services offered</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/servicesofferedsection.png" width="500">
 </details>
 - Four panels detail the services/classes offered at the art school.
 - Age groups and class times are specified.
 - A call to action for more information is included in each panel.
 
+
 #### Call to action
 <details>
 <summary>Screenshot of calls to action</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/calltoactionbutton.png" width="500">
 </details>
 - A call to action features immediately below the hero image. It links to the services offered section.
 - The call to action buttons in the panels for the classes offered link to about page and specifically the teacher running that class.
 - The call to action button in the special events panel links to the contact page.
 
+
 #### About page
 <details>
 <summary>Screenshot of About page</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/aboutpage.png" width="500">
 </details>
 - Features four images with information on each member of staff with a short biography and information on the class.
 
 
 #### Contact page
 <details>
-<summary>Screenshot of Conact page</summary>
-<img src="assets/documentation/" width="500">
+<summary>Screenshot of Conact page top</summary>
+<img src="documentation/contactformtop.png" width="500">
+</details>
+<details>
+<summary>Screenshot of Conact page bottom</summary>
+<img src="documentation/contactformbottom.png" width="500">
 </details>
 - Features a detailed form that a customer can submit to express specific interest and request more information.
 
@@ -209,7 +222,7 @@ Here will be more detail about navigation and other features such as:
 #### Gallery page and Images
 <details>
 <summary>Screenshot of Gallery page</summary>
-<img src="assets/documentation/" width="500">
+<img src="documentation/gallerypage.png" width="500">
 </details>
 - Features artwork by the four members of staff listed on the about page. 
 - If the user hovers over the image a superimposed caption appears on each image.
