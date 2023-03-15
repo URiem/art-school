@@ -146,7 +146,7 @@ The structure of the initial site will include four pages:
 
 ### Skeleton
 
-As described in the previous section with the aid of wireframes, the website includes for pages, which all have a consistent header and footer. The home page includes several calls to action, which link to the about page and the contact page. 
+As described in the previous section with the aid of wireframes, the website includes for pages, which all have a consistent header and footer. The home page includes several calls to action, which link to the about page and the contact page. The gallery has an interactive caption feature. Here are more details of the various page features:
 
 #### Header
 <details>
@@ -233,15 +233,17 @@ A feature to be implemented in the future is a map with the location of the scho
 
 ### Surface
 
-Here will be more information on design choices:
+The surface design of the website is aimed to convey an artistic flair, while remaining uncluttered, and maintaining easy of readability. The color schemes and font were chosen accordingly.
 
 #### Color Scheme
 
+The color scheme is a balance of vibrant colors that draw attention and convey artistic energy. A vibrant purple color was chosen in conjunction with the hero image and a desire for them to blend together. The remaining features on the site and font are a balance of a dark grey or black, as well as white or off white in order to maintain contrast and readability.
+
+![Color Scheme](documentation/colorscheme.png)
+
 #### Font
 
-
-1. Color scheme
-2. Font choice
+Kalam is the font used for high level heading such as the business name, text in the main body of the site and lowerlevel headings use Shantell Sans font. These fonts were chosen for the artistic character and to convey the fluency and flexibility of artistic experimentation.
 
 ## Technologies Used
 
@@ -256,6 +258,7 @@ Here will be more information on design choices:
 - Balsamiq
 - Google Fonts
 - Font Awesome
+- ColorSpace
 
 ## Testing and Validation
 
@@ -283,17 +286,29 @@ Here will be more information on design choices:
 
 
 ## Credits
+
 Images not referenced below are owned by the developer.
 
 ### Media
-credit images and other media here.
+
+Images:
+* Hero image by <a href="https://unsplash.com/@dragos126">Dragos Gontariu</a> on <a href="https://unsplash.com/photos/54VAb3f1z6w">Unsplash</a>
+* Smiling girl by <a href="https://unsplash.com/@senjuti">Senjuti Kundu</a> on <a href="https://unsplash.com/photos/JfolIjRnveY">Unsplash</a>
+* Pictures in the gallery attributed in the caption to Wiltrud Düll and her portrait shot on the About page were provided by her.
+* Pictures in the gallery attributed in the caption to Susanne Buske-Riemenschneider and her portrait shot on the About page were provided by her.
+* Pictures in the gallery attributed in the caption to Annika Riemenschneider-Melzer and her portrait shot on the About page were provided by her.
 
 ### Code
-- The website was loosely modeled on the Love Running Walkthough project and some of the code from the walkthrough project was used.
-- Layout and code for the About page was modeled after Paul Thomas O'Rirodans Project 1 Website.
-- Gallery lay out code was adapted from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo
+- The website was loosely modeled on and inspired by the Love Running Walkthough project and some of the code from the walkthrough project was used and adapted.
+- Layout and code for the About page was modeled after and adapted from <a href="https://github.com/paulie-o74/paul_thomas_pt">Paul Thomas O'Rirodan's Project 1 Website</a>.
+- <a href="https://www.w3schools.com/">W3 Schools</a> was a great help in creating the hover image overlay for captions on the gallery page.
+- This README file was also guided by the README file from <a href="https://github.com/paulie-o74/paul_thomas_pt">Paul Thomas O'Rirodans Project 1 Website</a>.
+- In an initial inception of this website the gallery layout code, both HTML and CSS, was taken from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo. Ultimately however, it was changed significantly and the final layout returned to being a masonry style illustrated and used in the Love Running project.
 
 ### Acknoowledgements
+
 I would like to thank:
 - My mentor Brian O'Hare for his feedback, advice, guidance and support.
-- 
+- My enthusiastic contributors of material, in the form of text and images, for the hypothetical art school for kids: My mother Susanne Buske-Riemenschneider, my sister Annika Riemenschneider-Melzer and family friend Wiltrud Düll. 
+- Cohort fascilitator Paul Thomas O'Rirodan, for his general advice on the management of the course and pointing us to a plethora of resources to help with the projects.
+- My husband, Matt, for his encouragement and support along the way.
