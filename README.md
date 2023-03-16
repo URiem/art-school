@@ -54,7 +54,7 @@ Creative Spaces is an art space and school in the Ratzeburg, Germany, area offer
 ## Project Goals
 
 ### User Goals
-- Find an open, inviting and versitile art space for children in Galway city.
+- Find an open, inviting and versitile art space for children in Ratzeburg, Germany.
 - Find guided art classes for children.
 - Find a open art exploration space for children.
 - Become part of a community of like-minded children and parents of artistially inclined children.
@@ -155,6 +155,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of header on mobile</summary>
 <img src="documentation/mobileheader.png" width="500">
 </details>
+
 - Featured on all five pages.
 - Includes the company name/logo and a menue with links to the Homepage, About page, Gallery page and Contact page.
 - The header is fully responsive and changes to fill two lines on smaller screens.
@@ -170,6 +171,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of footer on mobile</summary>
 <img src="documentation/mobilefooter.png" width="500">
 </details>
+
 - Featured on all five pages.
 - Includes links to the Homepage, About page, Gallery page and Contact page.
 - The navbar is fully responsive and changes to fill two lines on smaller screens.
@@ -182,6 +184,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of Services offered</summary>
 <img src="documentation/servicesofferedsection.png" width="500">
 </details>
+
 - Four panels detail the services/classes offered at the art school.
 - Age groups and class times are specified.
 - A call to action for more information is included in each panel.
@@ -192,6 +195,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of calls to action</summary>
 <img src="documentation/calltoactionbutton.png" width="500">
 </details>
+
 - A call to action features immediately below the hero image. It links to the services offered section.
 - The call to action buttons in the panels for the classes offered link to about page and specifically the teacher running that class.
 - The call to action button in the special events panel links to the contact page.
@@ -202,6 +206,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of About page</summary>
 <img src="documentation/aboutpage.png" width="500">
 </details>
+
 - Features four images with information on each member of staff with a short biography and information on the class.
 
 
@@ -214,6 +219,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of Conact page bottom</summary>
 <img src="documentation/contactformbottom.png" width="500">
 </details>
+
 - Features a detailed form that a customer can submit to express specific interest and request more information.
 
 
@@ -222,6 +228,7 @@ As described in the previous section with the aid of wireframes, the website inc
 <summary>Screenshot of Gallery page</summary>
 <img src="documentation/gallerypage.png" width="500">
 </details>
+
 - Features artwork by the four members of staff listed on the about page. 
 - If the user hovers over the image a superimposed caption appears on each image.
 
@@ -257,6 +264,7 @@ Kalam is the font used for high level heading such as the business name, text in
 - Google Fonts
 - Font Awesome
 - ColorSpace
+- Favicon.io
 
 ## Testing and Validation
 
@@ -266,22 +274,22 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details>
 <summary>Home</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/indexhtmlval.png" width="500">
 </details>
 
 <details>
 <summary>About</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/abouthtmlval.png" width="500">
 </details>
 
 <details>
 <summary>Gallery</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/galleryhtmlval.png" width="500">
 </details>
 
 <details>
 <summary>Contact</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/signuphtmlval.png" width="500">
 </details>
 
 ### CSS Validation
@@ -290,7 +298,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 <details>
 <summary>CSS Validation Screenshot</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/cssvalidation.png" width="500">
 </details>
 
 ### Accessibility & Performance
@@ -299,22 +307,22 @@ The Lighthouse feature on Google Devtools was used to assess accessibility and p
 
 <details>
 <summary>Home</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/indexlh.png" width="500">
 </details>
 
 <details>
 <summary>About</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/aboutlh.png" width="500">
 </details>
 
 <details>
 <summary>Gallery</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/gallerylh.png" width="500">
 </details>
 
 <details>
 <summary>Contact</summary>
-<img src="documentation/.png" width="500">
+<img src="documentation/signuplh.png" width="500">
 </details>
 
 ### Browser Compatability
