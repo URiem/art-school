@@ -404,6 +404,10 @@ footer {
     border-radius: 4px;
 }
 
+#message-box-label {
+    font-size: 20px;
+}
+
 .form-submit-button {
     background: hsl(289, 91%, 38%);
     border: 2px solid white;
