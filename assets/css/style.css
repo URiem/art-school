@@ -14,7 +14,6 @@ body {
 }
 
 /* headings and logo */
-
 h1, h2 {
     font-family: Kalam, sans-serif;
     text-transform: uppercase;
@@ -22,7 +21,6 @@ h1, h2 {
     color: #252525;
 }
 
-/* Why is the font-weight not as specified here? */
 #logo {
     float: left;
     font-size: 280%;
@@ -62,7 +60,6 @@ h1, h2 {
 }
 
 /* hero image and text box*/
-
 #hero-outer {
     height: 480px;
     width: 100%;
@@ -127,7 +124,6 @@ h1, h2 {
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-
 }
 
 #jump-right-in {
@@ -159,7 +155,6 @@ h1, h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* height: 600px; */
 }
 
 #philosophy > div {
@@ -188,12 +183,10 @@ hr {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    /* margin: 0 auto; */
 }
 
 #bg1 {
     background: url('../images/senjuti-kundu-unsplash-cropped.jpg') no-repeat center center;
-    max-width = 100%;
 }
 
 #bg2 {
@@ -205,7 +198,6 @@ hr {
 }
 
 /* Class Times Section */
-
 #class-times {
     clear: both;
     display: flex;
@@ -226,13 +218,11 @@ hr {
 }
 
 #class-times h2 {
-    /* color:; */
     font-size: xx-large;
     margin: 10px 5px;
 }
 
 #class-times h3 {
-    /* color:#fafafa; */
     font-size: x-large;
     margin: 10px auto;
 }
@@ -281,7 +271,6 @@ footer {
     font-size: 200%;
     color: #3a3a3a;
 }
-
 
 /* About Page Styling */
 #about-the-artists {
@@ -337,9 +326,7 @@ footer {
     border-radius: 50%;
 }
 
-
 /* Main Gallery CSS */
-
 #photos {
     clear: both;
     margin: 10px;
@@ -355,9 +342,10 @@ footer {
 .container {
     position: relative;
     width: 100%;
-  }
+}
 
-  /* The overlay effect - lays on top of the container and over the image */
+/* The overlay effect - lays on top of the container and over the image - developed with help of W3 Schools
+        https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .overlay {
     position: absolute;
     bottom: 5px;
@@ -373,14 +361,12 @@ footer {
     border-radius: 5px;
 }
 
-  /* When you mouse over the container, fade in the overlay title */
+/* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
     opacity: 1;
 }
 
-
 /* Sign up page styling */
-
 .form-section {
     clear: both;
     max-width: 800px;
@@ -445,7 +431,6 @@ footer {
 }
 
 /* 404 page styling 404 page styling 404 page styling */
-
 #error-container {
     clear: both;
     box-sizing: border-box;
@@ -476,7 +461,6 @@ footer {
 }
 
  /* Responsiveness for medium screen sizes from 950px wide and down */
-
  @media screen and (max-width: 1050px) {
 
     #photos {
@@ -532,11 +516,11 @@ footer {
 
  @media screen and (max-width: 800px) {
 
- .artist-bio {
-    background-color: white;
-    margin: 0 auto;
-    width: 80%;
-}
+    .artist-bio {
+        background-color: white;
+        margin: 0 auto;
+        width: 80%;
+    }
  }
 
  @media screen and (max-width: 450px) {
@@ -571,16 +555,23 @@ footer {
         letter-spacing: 1px;
     }
 
-.circle-cover {
-    padding: 0;
-    width: 260px;
-    height: 240px;
-    border-radius: 15px;
-    position: absolute;
-    bottom: 2%;
-    left: 5%;
-    /* margin: 0 auto; */
-    max-width: 90%;
+    #cover-text {
+        
+        bottom: 0px;
+        left: -10px;
+    
+        position: absolute;
+    }
+
+    .circle-cover {
+        padding: 0;
+        width: 260px;
+        height: 240px;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 2%;
+        left: 5%;
+        max-width: 90%;
     }
 
     .artist-bio {
