@@ -149,11 +149,11 @@ As described in the previous section with the aid of wireframes, the website inc
 #### Header
 <details>
 <summary>Screenshot of header on desktop</summary>
-<img src="documentation/header.png" width="500">
+<img src="documentation/header.png" width="700">
 </details>
 <details>
 <summary>Screenshot of header on mobile</summary>
-<img src="documentation/mobileheader.png" width="500">
+<img src="documentation/mobileheader.png" width="400">
 </details>
 
 - Featured on all five pages.
@@ -169,7 +169,7 @@ As described in the previous section with the aid of wireframes, the website inc
 </details>
 <details>
 <summary>Screenshot of footer on mobile</summary>
-<img src="documentation/mobilefooter.png" width="500">
+<img src="documentation/mobilefooter.png" width="400">
 </details>
 
 - Featured on all five pages.
@@ -182,7 +182,7 @@ As described in the previous section with the aid of wireframes, the website inc
 #### Services offered
 <details>
 <summary>Screenshot of Services offered</summary>
-<img src="documentation/servicesofferedsection.png" width="500">
+<img src="documentation/servicesofferedsection.png" width="700">
 </details>
 
 - Four panels detail the services/classes offered at the art school.
@@ -193,7 +193,7 @@ As described in the previous section with the aid of wireframes, the website inc
 #### Call to action
 <details>
 <summary>Screenshot of calls to action</summary>
-<img src="documentation/calltoactionbutton.png" width="500">
+<img src="documentation/calltoactionbutton.png" width="700">
 </details>
 
 - A call to action features immediately below the hero image. It links to the services offered section.
@@ -204,7 +204,7 @@ As described in the previous section with the aid of wireframes, the website inc
 #### About page
 <details>
 <summary>Screenshot of About page</summary>
-<img src="documentation/aboutpage.png" width="500">
+<img src="documentation/aboutpage.png" width="700">
 </details>
 
 - Features four images with information on each member of staff with a short biography and information on the class.
@@ -226,7 +226,7 @@ As described in the previous section with the aid of wireframes, the website inc
 #### Gallery page and Images
 <details>
 <summary>Screenshot of Gallery page</summary>
-<img src="documentation/gallerypage.png" width="500">
+<img src="documentation/gallerypage.png" width="700">
 </details>
 
 - Features artwork by the four members of staff listed on the about page. 
@@ -274,22 +274,22 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details>
 <summary>Home</summary>
-<img src="documentation/indexhtmlval.png" width="500">
+<img src="documentation/indexhtmlval.png" width="700">
 </details>
 
 <details>
 <summary>About</summary>
-<img src="documentation/abouthtmlval.png" width="500">
+<img src="documentation/abouthtmlval.png" width="700">
 </details>
 
 <details>
 <summary>Gallery</summary>
-<img src="documentation/galleryhtmlval.png" width="500">
+<img src="documentation/galleryhtmlval.png" width="700">
 </details>
 
 <details>
 <summary>Contact</summary>
-<img src="documentation/signuphtmlval.png" width="500">
+<img src="documentation/signuphtmlval.png" width="700">
 </details>
 
 ### CSS Validation
@@ -298,31 +298,31 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 <details>
 <summary>CSS Validation Screenshot</summary>
-<img src="documentation/cssvalidation.png" width="500">
+<img src="documentation/cssvalidation.png" width="700">
 </details>
 
 ### Accessibility & Performance
 
-The Lighthouse feature on Google Devtools was used to assess accessibility and performance. 
+The Lighthouse feature on Google Devtools was used to assess accessibility and performance. All pages score high on accessibility. The gallery page scores lowest on performance due to the large number of images.
 
 <details>
 <summary>Home</summary>
-<img src="documentation/indexlh.png" width="500">
+<img src="documentation/indexlh.png" width="700">
 </details>
 
 <details>
 <summary>About</summary>
-<img src="documentation/aboutlh.png" width="500">
+<img src="documentation/aboutlh.png" width="700">
 </details>
 
 <details>
 <summary>Gallery</summary>
-<img src="documentation/gallerylh.png" width="500">
+<img src="documentation/gallerylh.png" width="700">
 </details>
 
 <details>
 <summary>Contact</summary>
-<img src="documentation/signuplh.png" width="500">
+<img src="documentation/signuplh.png" width="700">
 </details>
 
 ### Browser Compatability
