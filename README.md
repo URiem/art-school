@@ -329,6 +329,11 @@ The Lighthouse feature on Google Devtools was used to assess accessibility and p
 <img src="documentation/signuplh.png" width="700">
 </details>
 
+#### Outstanding Issues
+
+During testing using Lighthouse issues related to performance and SEO were flaged, specifically on the Home page and Gallery page. Work to reduce these issues should continue. This will further improve the user experience.
+
+
 ### Browser Compatability
 
 The websites compatability was tested on the following browsers:
@@ -440,10 +445,6 @@ While all the minimum criteria for fullfilling the user stories are met, there a
 | Header styling failed on small screen sizes | Font size of logo and menu was decreased and menu floated left to fit header on two lines |
 | Spurious tiny underscore lines appeared between the social media links when using 'display: inline' for the CSS styling of the .social-networks class. | Using 'display: flex' eliminated the lines. | 
 
-### Outstanding Issues
-
-
-
 ## Deployment & Development
 
 The website was deployed using GitHub Pages by following these steps:
@@ -488,7 +489,7 @@ Images:
 - This README file was also guided by the README file from <a href="https://github.com/paulie-o74/paul_thomas_pt">Paul Thomas O'Rirodans Project 1 Website</a>.
 - In an initial inception of this website the gallery layout code, both HTML and CSS, was taken from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo. Ultimately however, it was changed significantly and the final layout returned to being a masonry style illustrated and used in the Love Running project.
 
-### Acknoowledgements
+### Acknowledgements
 
 I would like to thank:
 - My mentor Brian O'Hare for his feedback, advice, guidance and support.
