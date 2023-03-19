@@ -41,7 +41,7 @@
     2. [CSS](#css-validation)
     3. [Accessibility & Performance](#accessibility--performance)
     4. [Browser Compatability](#browser-compatability)
-    5. [User Stories](#user-stories)
+    5. [Testing User Stories](#testing-user-stories)
 6. [Bugs](#bugs-fixes-and-outstanding-issues)
 7. [Deployment & Development](#deployment--development)
 8. [Credits](#credits)
@@ -56,7 +56,7 @@ Creative Spaces is an art space and school in the Ratzeburg, Germany, area offer
 ### User Goals
 - Find an open, inviting and versitile art space for children in Ratzeburg, Germany.
 - Find guided art classes for children.
-- Find a open art exploration space for children.
+- Find an open art exploration space for children.
 - Become part of a community of like-minded children and parents of artistially inclined children.
 
 ### Site Owner Goals
@@ -71,7 +71,7 @@ Creative Spaces is an art space and school in the Ratzeburg, Germany, area offer
 ### Strategy
 
 #### Target Audience
-- Parents looking to enroll their children in art classes
+- Parents looking to enroll their children in art classes.
 - Parents looking to find an artistic outlet for their children.
 - School age children looking for a creative space to expand their artistic skills.
 
@@ -96,13 +96,13 @@ As a first time user, I want to ...
 ##### Returning Users
 As a returning user, I want to ...
 1. ... see the times and types of classes offered.
-2. ... see if there is any new classes offered.
+2. ... see if there are any new classes offered.
 3. ... find social media links to connect with the business.
 4. ... find directions to the location of the business.
 
 ##### Site owner
 As the site owner, I want users to ...
-1. ... interact with the space, learn about the space, learn about the services offered, learn about the benefits of the service, and sign up for more information.
+1. ... interact with the space, learn about the space, learn about the services offered, learn about the benefits of the service, and request more information.
 2. ... feel comfortable and at ease reaching out for more information.
 
 ### Scope
@@ -138,13 +138,15 @@ The structure of the initial site will include four pages:
 
 ![Contact](documentation/signup.png)
 
-4. **Gallery Page** with a wealth of images that will give a feel and impression of the space.
+4. **Gallery Page** with a wealth of images that will give a feel and impression of art produced by staff and students at the space.
 
 ![Gallery](documentation/gallery.png)
 
+5. **404 Page** - a simple 404 Error page is also included.
+
 ### Skeleton
 
-As described in the previous section with the aid of wireframes, the website includes for pages, which all have a consistent header and footer. The home page includes several calls to action, which link to the about page and the contact page. The gallery has an interactive caption feature. Here are more details of the various page features:
+As described in the previous section with the aid of wireframes, the website includes four pages, which all have a consistent header and footer. The home page includes several calls to action, which link to the about page and the contact page. The gallery has an interactive caption feature. Here are more details of the various page features:
 
 #### Header
 <details>
@@ -156,8 +158,8 @@ As described in the previous section with the aid of wireframes, the website inc
 <img src="documentation/mobileheader.png" width="400">
 </details>
 
-- Featured on all five pages.
-- Includes the company name/logo and a menue with links to the Homepage, About page, Gallery page and Contact page.
+- Featured on all four main pages (and the 404 page).
+- Includes the company name/logo and a menu with links to the Homepage, About page, Gallery page and Contact page.
 - The header is fully responsive and changes to fill two lines on smaller screens.
 - If a user hovers over a menu option in desktop mode an animated bar shows them which option they are choosing. 
 
@@ -172,10 +174,11 @@ As described in the previous section with the aid of wireframes, the website inc
 <img src="documentation/mobilefooter.png" width="400">
 </details>
 
-- Featured on all five pages.
-- Includes links to the Homepage, About page, Gallery page and Contact page.
-- The navbar is fully responsive and changes to fill two lines on smaller screens.
-- If a user hovers over a nav bar option in desktop mode an animated bar shows them which option they are choosing. 
+- Featured on all four main pages (and the 404 page).
+- Includes the address/location of the space.
+- Includes links to the social media pages which the company maintains: Facebook, Twitter, Instragram, and YouTube.
+- All links open in a new window.
+- The footer is fully responsive and changes to fill two lines on smaller screens. 
 
 
 
@@ -197,8 +200,8 @@ As described in the previous section with the aid of wireframes, the website inc
 </details>
 
 - A call to action features immediately below the hero image. It links to the services offered section.
-- The call to action buttons in the panels for the classes offered link to about page and specifically the teacher running that class.
-- The call to action button in the special events panel links to the contact page.
+- The call to action buttons in the panels for the classes offered link to About page and specifically the teacher running that class.
+- The call to action button in the special events panel links to the Contact page.
 
 
 #### About page
@@ -229,8 +232,9 @@ As described in the previous section with the aid of wireframes, the website inc
 <img src="documentation/gallerypage.png" width="700">
 </details>
 
-- Features artwork by the four members of staff listed on the about page. 
-- If the user hovers over the image a superimposed caption appears on each image.
+- Features images of artwork created by the four members of staff listed on the About page. 
+- On a desktop, if the user hovers over the image a superimposed caption appears on each image.
+- On a mobile device the caption will appear if the user taps on the image.
 
 #### Future Additions
 
@@ -242,7 +246,7 @@ The surface design of the website is aimed to convey an artistic flair, while re
 
 #### Color Scheme
 
-The color scheme is a balance of vibrant colors that draw attention and convey artistic energy. A vibrant purple color was chosen in conjunction with the hero image and a desire for them to blend together. The remaining features on the site and font are a balance of a dark grey or black, as well as white or off white in order to maintain contrast and readability.
+The color scheme is a balance of vibrant colors that draw attention and convey artistic energy. A vibrant purple color was chosen in conjunction with the hero image and a desire for them to blend together. It was used to frame all important information on the site and all clickable buttons are styled with this color. The remaining features on the site and font are a balance of a dark grey or black, as well as white or off white in order to maintain contrast and readability.
 
 ![Color Scheme](documentation/colorscheme.png)
 
@@ -334,20 +338,20 @@ The websites compatability was tested on the following browsers:
 * Microsoft Edge
 * Safari
 
-### User Stories
+### Testing User Stories
 
 1. As a first time user, I want to know what services are offered at Creative Spaces.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Home page | Navigate to the type of art activities you are most interested in | Locating information on activities offered | Works as expected |
+| Home page | Navigate to the type of art activities you are interested in | Locating information on activities offered | Works as expected |
 
 
 2. As a first time user, I want to know times, location, and types of classes offered.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Home page | Navigate to the type of art activities you are most interested in | See types of classes and times offered | Works as expected |
+| Home page | Navigate to the type of art activities you are interested in | See classes and times offered | Works as expected |
 | Footer - address | Scroll down to the footer of the page | Find the address of the school | Works as expected |
 
 3. As a first time user, I want to know how to get in contact with the business and request more information.
@@ -355,7 +359,7 @@ The websites compatability was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
-| Footer-social media links  | On any page scroll down to the footer | Contact via social media platform of your choice | Works as expected | 
+| Footer-social media links  | On any page scroll down to the footer | Contact via any social media platform | Works as expected | 
 
 
 4. As a first time user, I want to find more information about the staff mentoring and supervising the children.
@@ -376,7 +380,7 @@ The websites compatability was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Home page | Navigate to the type of art activities you are most interested in | Locating information on activities offered | Works as expected |
+| Home page | Navigate to the type of art activities you are interested in | Locating information on activities offered | Works as expected |
 
 7. As a returning user, I want to see if there is any new classes offered.
 
@@ -395,7 +399,7 @@ The websites compatability was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer-social media links  | On any page scroll down to the footer | Find address of the school | Works as expected | 
+| Footer - address  | On any page scroll down to the footer | Find address of the school | Works as expected | 
 
 
 10. As the site owner, I want users to interact with the space, learn about the space, learn about the services offered, learn about the benefits of the service, and sign up for more information.
@@ -417,11 +421,24 @@ The websites compatability was tested on the following browsers:
 | Contact page | Navigate to the contact page and locate the form | Find and fill out contact form | Works as expected |
 
 
+#### Room for improvement on User Stories
+
+While all the minimum criteria for fullfilling the user stories are met, there are several items that could be improved upon:
+
+1. A map could be included at the bottom of the home page to give more explicit directions to the location. This would strengthen user story number 9.
+
+2. A  more explicit section or link could be provided on new services, news, or special events. This would stengthen user story number 7.
+
+3. More information about the fascilities could be included, in the form of text about or images of the building, rooms, art supplies and materials provided at the space. This would strengthen user story number 5. 
+
+
 ## Bugs, Fixes and Outstanding issues
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Bug | Fix |
+| Images framed in the philosophy section failed to be responsive at very small screen sizes. | Max-width of image was set to 90% and margins to % values also for more responsiveness |
+| Header styling failed on small screen sizes | Font size of logo and menu was decreased and menu floated left to fit header on two lines |
+| Spurious tiny underscore lines appeared between the social media links when using 'display: inline' for the CSS styling of the .social-networks class. | Using 'display: flex' eliminated the lines. | 
 
 ### Outstanding Issues
 

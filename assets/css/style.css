@@ -472,6 +472,7 @@ footer {
     }
  }
 
+ /* Responsiveness for medium screen sizes from 850px wide and down */
  @media screen and (max-width: 850px) {
 
     #photos {
@@ -518,6 +519,7 @@ footer {
     }
  }
 
+ /* Responsiveness for medium screen sizes from 800px wide and down */
  @media screen and (max-width: 800px) {
 
     .artist-bio {
@@ -527,6 +529,7 @@ footer {
     }
  }
 
+ /* Responsiveness for small screen sizes from 450px wide and down */
  @media screen and (max-width: 450px) {
 
     #photos {
@@ -545,7 +548,7 @@ footer {
     }
 }
     
-
+/* Responsiveness for small screen sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
 
     #logo {
@@ -560,10 +563,8 @@ footer {
     }
 
     #cover-text {
-        
         bottom: 0px;
         left: -10px;
-    
         position: absolute;
     }
 
