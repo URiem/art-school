@@ -269,6 +269,7 @@ Kalam is the font used for high level heading such as the business name, text in
 - Font Awesome
 - ColorSpace
 - Favicon.io
+- W3 Schools
 
 ## Testing and Validation
 
@@ -488,6 +489,7 @@ Images:
 - <a href="https://www.w3schools.com/">W3 Schools</a> was a great help in creating the hover image overlay for captions on the gallery page.
 - This README file was also guided by the README file from <a href="https://github.com/paulie-o74/paul_thomas_pt">Paul Thomas O'Rirodans Project 1 Website</a>.
 - In an initial inception of this website the gallery layout code, both HTML and CSS, was taken from Saief Al Emon https://codepen.io/iamsaief/pen/jObaoKo. Ultimately however, it was changed significantly and the final layout returned to being a masonry style illustrated and used in the Love Running project.
+- The <a href="https://www.youtube.com/playlist?list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt">Code Institute Channel Lead Library</a> was a very useful resource for learning for the CSS flex box styling code used throughout the project.
 
 ### Acknowledgements
 
