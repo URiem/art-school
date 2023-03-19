@@ -332,6 +332,7 @@ The websites compatability was tested on the following browsers:
 * Google Chrome
 * Mozilla Waterfox
 * Microsoft Edge
+* Safari
 
 ### User Stories
 
@@ -452,9 +453,9 @@ The repository can be cloned by the following steps:
 
 ## Credits
 
-Images not referenced below are owned by the developer.
-
 ### Media
+
+Images not referenced below are owned by the developer.
 
 Images:
 * Hero image by <a href="https://unsplash.com/@dragos126">Dragos Gontariu</a> on <a href="https://unsplash.com/photos/54VAb3f1z6w">Unsplash</a>
