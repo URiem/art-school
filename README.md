@@ -42,7 +42,7 @@
     3. [Accessibility & Performance](#accessibility--performance)
     4. [Browser Compatability](#browser-compatability)
     5. [Testing User Stories](#testing-user-stories)
-6. [Bugs](#bugs-fixes-and-outstanding-issues)
+6. [Bugs & Fixes](#bugs--fixes)
 7. [Deployment & Development](#deployment--development)
 8. [Credits](#credits)
 
@@ -437,7 +437,7 @@ While all the minimum criteria for fullfilling the user stories are met, there a
 3. More information about the fascilities could be included, in the form of text about or images of the building, rooms, art supplies and materials provided at the space. This would strengthen user story number 5. 
 
 
-## Bugs, Fixes and Outstanding issues
+## Bugs & Fixes
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
